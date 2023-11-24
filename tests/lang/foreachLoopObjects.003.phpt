@@ -35,7 +35,7 @@ foreach ($obj as $k=>&$v) {
 }
 var_dump($obj);
 
-echo "\nAdding properties to an an object.\n";
+echo "\nAdding properties to an object.\n";
 $obj = new C;
 $counter=0;
 foreach ($obj as $v) {
@@ -49,7 +49,7 @@ foreach ($obj as $v) {
 }
 var_dump($obj);
 
-echo "\nAdding properties to an an object, using &\$value.\n";
+echo "\nAdding properties to an object, using &\$value.\n";
 $obj = new C;
 $counter=0;
 foreach ($obj as &$v) {
@@ -130,7 +130,7 @@ object(C)#%d (5) {
   string(10) "Original e"
 }
 
-Adding properties to an an object.
+Adding properties to an object.
 string(10) "Original a"
 string(10) "Original b"
 string(10) "Original c"
